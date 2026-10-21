@@ -2,7 +2,6 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { fileURLToPath } from 'url';
 
-
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
