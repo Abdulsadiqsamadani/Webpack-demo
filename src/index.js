@@ -8,4 +8,6 @@ const component = () => {
   return element;
 };
 document.body.appendChild(component());
+
+// eslint-disable-next-line no-console
 console.log('Webpack bundle is working!');
